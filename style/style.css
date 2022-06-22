@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #AAAAAA; */
+    padding: 0;
+    margin:0 ;
+    
+   
+    
+}
+
+/* header style  */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin: 20px 120px;
+}
+.links li{
+    list-style: none;
+    display: inline-block;
+}
+.links ul li a{
+         color: #3A3A3A;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+
+}
+
+ .links li a:hover{
+   
+    color: royalblue;
+} 
+ .links li::after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px royalblue;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.links li:hover::after {
+    transform: scaleX(.9); 
+}
+
+.top-icons{
+    margin-right: 100px;
+   
+}
+
+.links, .top-icons{
+margin-left: auto;
+}
+
+
+
+/* -------------
+details  top style 
+ ---------------*/
+ .container{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+ }
+
+
+ .influencer-journey{
+   margin: 0 120px;
+    
+ }
+ .influencer-title{
+    font-size: 52px;
+   color: #3A3A3A;
+ }
+ .influencer-journey p{
+    font-size: 16px;
+    
+ }
+.prebook-btn button {
+    background-color: #E02C6D;
+    border: none;
+    color: white;
+    height: 44px;
+    width: 196px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fas {
+    margin-left: 6px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.main-camera{
+margin-right: 165px; 
+
+ }
+
+ /* ---------------
+details  top style 
+ -----------------*/
